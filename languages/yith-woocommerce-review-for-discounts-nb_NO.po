@@ -1,0 +1,2140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Review For Discounts Premium v1.0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-06-27 16:16:28+0000\n"
+"Last-Translator: rune <rune@arctic-fritid.no>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Norwegian (Bokmål)\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: class.yith-wc-review-for-discounts-premium.php:462
+#@ yith-woocommerce-review-for-discounts
+msgid "This option cannot be modified because you have set YITH WooCommerce Review for Discounts to send coupons only after approval."
+msgstr "Dette alternativet kan ikke endres fordi du har satt \"Omtale for rabatt\" til å sende rabattkuponger først når omtaler er godkjent."
+
+#: class.yith-wc-review-for-discounts-premium.php:741
+#: class.yith-wc-review-for-discounts.php:379
+#@ yith-woocommerce-review-for-discounts
+msgid "Comment moderation has been enabled to make YITH WooCommerce Review for Discounts work correctly."
+msgstr "Kommentar moderering er aktivert for å sikre at \"Omtale for rabatt\" fungerer riktig."
+
+#: class.yith-wc-review-for-discounts-premium.php:755
+#: class.yith-wc-review-for-discounts.php:393
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Comment moderation is enabled but is not essential to make YITH WooCommerce Review for Discounts work correctly. If you want to change this option click %s here %s"
+msgstr "Kommentar moderering er aktivert, men er ikke nødvendig for at \"Omtale for rabatt\" skal fungere riktig. Hvis du ønsker å endre dette valget, klikk %s her %s"
+
+#: class.yith-wc-review-for-discounts.php:183
+#: class.yith-wc-review-for-discounts.php:187
+#@ yith-woocommerce-review-for-discounts
+msgid "General Settings"
+msgstr "Generelle innstillinger"
+
+#: class.yith-wc-review-for-discounts.php:184
+#: plugin-options/mandrill-options.php:18
+#@ yith-woocommerce-review-for-discounts
+msgid "Mandrill Settings"
+msgstr "Mandrill innstillinger"
+
+#: class.yith-wc-review-for-discounts.php:188
+#: class.yith-wc-review-for-discounts.php:688
+#@ yith-woocommerce-review-for-discounts
+msgid "Premium Version"
+msgstr "Premium versjon"
+
+#: class.yith-wc-review-for-discounts.php:191
+#: includes/class-ywrfd-multivendor.php:119
+#@ yith-woocommerce-review-for-discounts
+msgid "How To"
+msgstr "Hvordan"
+
+#: class.yith-wc-review-for-discounts.php:197
+#@ yith-woocommerce-review-for-discounts
+msgctxt "plugin name in admin page title"
+msgid "Review For Discounts"
+msgstr "Omtale for rabatt"
+
+#: class.yith-wc-review-for-discounts.php:198
+#@ yith-woocommerce-review-for-discounts
+msgctxt "plugin name in admin WP menu"
+msgid "Review For Discounts"
+msgstr "Omtale for rabatt"
+
+#: class.yith-wc-review-for-discounts.php:234
+#@ yith-woocommerce-review-for-discounts
+msgid "This option cannot be modified because it is essential for YITH WooCommerce Review for Discounts to work correctly."
+msgstr "Dette alternativet kan ikke endres da det er obligatorisk for at \"Omtale for rabatt\" skal fungere riktig."
+
+#: class.yith-wc-review-for-discounts.php:235
+#: templates/admin/class-ywrfd-custom-send.php:91
+#@ yith-woocommerce-review-for-discounts
+msgid "Sending test email..."
+msgstr "Sender testmelding..."
+
+#: class.yith-wc-review-for-discounts.php:236
+#@ yith-woocommerce-review-for-discounts
+msgid "Test email has been sent successfully!"
+msgstr "Testmeldingen ble sendt!"
+
+#: class.yith-wc-review-for-discounts.php:237
+#@ yith-woocommerce-review-for-discounts
+msgid "Please insert a valid email address"
+msgstr "Vennligst skriv inn en gyldig e-postadresse"
+
+#: class.yith-wc-review-for-discounts.php:256
+#@ yith-woocommerce-review-for-discounts
+msgid "Placeholder list"
+msgstr "Plassholder oversikt"
+
+#: class.yith-wc-review-for-discounts.php:265
+#@ yith-woocommerce-review-for-discounts
+msgid "How coupon works. This placeholder must be included."
+msgstr "Beskrivelse av rabattkupongen. Denne plassholder må inkluderes."
+
+#: class.yith-wc-review-for-discounts.php:273
+#@ yith-woocommerce-review-for-discounts
+msgid "Site title"
+msgstr "Nettstedets tittel"
+
+#: class.yith-wc-review-for-discounts.php:281
+#@ yith-woocommerce-review-for-discounts
+msgid "Customer's name"
+msgstr "Kundens navn"
+
+#: class.yith-wc-review-for-discounts.php:289
+#@ yith-woocommerce-review-for-discounts
+msgid "Customer's last name"
+msgstr "Kundens etternavn"
+
+#: class.yith-wc-review-for-discounts.php:297
+#@ yith-woocommerce-review-for-discounts
+msgid "Customer's email"
+msgstr "Kundens e-postadresse"
+
+#: class.yith-wc-review-for-discounts.php:305
+#@ yith-woocommerce-review-for-discounts
+msgid "Name of the reviewed product"
+msgstr "Navn på det omtalte produktet"
+
+#: class.yith-wc-review-for-discounts.php:316
+#@ yith-woocommerce-review-for-discounts
+msgid "Total reviews of an user"
+msgstr "Totalt antall omtaler fra en bruker"
+
+#: class.yith-wc-review-for-discounts.php:325
+#@ yith-woocommerce-review-for-discounts
+msgid "How many reviews the user has to write to achieve an objective"
+msgstr "Hvor mange omtaler brukeren må skrive for å oppnå en rabattkupong"
+
+#: class.yith-wc-review-for-discounts.php:335
+#@ yith-woocommerce-review-for-discounts
+msgid "Name of the vendor"
+msgstr "Navn på leverandøren"
+
+#: class.yith-wc-review-for-discounts.php:685
+#: includes/class-ywrfd-multivendor.php:118
+#: plugin-fw/lib/yit-cpt-unlimited.php:1048
+#: plugin-fw/lib/yit-cpt-unlimited.php:1196
+#: plugin-fw/lib/yit-cpt-unlimited.php:1202
+#: plugin-fw/lib/yit-plugin-panel.php:74
+#@ yith-woocommerce-review-for-discounts
+#@ yith-plugin-fw
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: class.yith-wc-review-for-discounts.php:715
+#@ yith-woocommerce-review-for-discounts
+msgid "Plugin Documentation"
+msgstr "Plugin dokumentasjon"
+
+#: includes/class-ywrfd-ajax-premium.php:152
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Operation completed. %d coupon trashed."
+msgid_plural "Operation completed. %d coupons trashed."
+msgstr[0] "Oppdraget fullført. %d kupong ble slettet."
+msgstr[1] "Oppdraget fullført. %d kuponger ble slettet."
+
+#: includes/class-ywrfd-ajax-premium.php:157
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "An error occurred: %s"
+msgstr "Det oppstod en feil: %s"
+
+#: includes/class-ywrfd-ajax.php:117
+#@ yith-woocommerce-coupon-email-system
+msgid "There was an error while sending the email"
+msgstr ""
+
+#: includes/class-ywrfd-coupon-email.php:46
+#@ yith-woocommerce-review-for-discounts
+msgid "Reward your customers with a gentle discount: approve their reviews and encourage them to purchase again in your shop!"
+msgstr "Belønn kundene dine med en hyggelig rabatt: Godkjenn deres omtaler og oppmuntre dem til å kjøpe igjen via nettbutikken din!"
+
+#: includes/class-ywrfd-coupon-email.php:47
+#@ yith-woocommerce-review-for-discounts
+msgid "Review For Discounts Emails"
+msgstr "\"Omtale for rabatt\" e-poster"
+
+#: includes/class-ywrfd-discounts-helper.php:101
+#@ yith-woocommerce-review-for-discounts
+msgctxt "Post Type General Name"
+msgid "Review Discounts"
+msgstr "Omtale rabatter"
+
+#: includes/class-ywrfd-discounts-helper.php:102
+#@ yith-woocommerce-review-for-discounts
+msgctxt "Post Type Singular Name"
+msgid "Review Discount"
+msgstr "Omtale rabatt"
+
+#: includes/class-ywrfd-discounts-helper.php:103
+#@ yith-woocommerce-review-for-discounts
+msgid "Add New Review Discount"
+msgstr "Legg til en ny omtale rabatt"
+
+#: includes/class-ywrfd-discounts-helper.php:104
+#@ yith-woocommerce-review-for-discounts
+msgid "Add Review Discount"
+msgstr "Legg til omtale rabatt"
+
+#: includes/class-ywrfd-discounts-helper.php:105
+#@ yith-woocommerce-review-for-discounts
+msgid "New Review Discount"
+msgstr "Ny omtale rabatt"
+
+#: includes/class-ywrfd-discounts-helper.php:106
+#@ yith-woocommerce-review-for-discounts
+msgid "Edit Review Discount"
+msgstr "Rediger omtale rabatt"
+
+#: includes/class-ywrfd-discounts-helper.php:107
+#@ yith-woocommerce-review-for-discounts
+msgid "View Review Discount"
+msgstr "Vis omtale rabatt"
+
+#: includes/class-ywrfd-discounts-helper.php:108
+#@ yith-woocommerce-review-for-discounts
+msgid "Search Review Discount"
+msgstr "Søk i omtale rabatter"
+
+#: includes/class-ywrfd-discounts-helper.php:109
+#@ yith-woocommerce-review-for-discounts
+msgid "Not found"
+msgstr "Ikke funnet"
+
+#: includes/class-ywrfd-discounts-helper.php:110
+#@ yith-woocommerce-review-for-discounts
+msgid "Not found in Trash"
+msgstr "Ikke funnet i papirkurven"
+
+#: includes/class-ywrfd-discounts-helper.php:204
+#@ yith-woocommerce-review-for-discounts
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/class-ywrfd-discounts-helper.php:205
+#@ yith-woocommerce-review-for-discounts
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/class-ywrfd-discounts-helper.php:206
+#: includes/class-ywrfd-discounts-helper.php:456
+#@ yith-woocommerce-review-for-discounts
+msgid "Triggering event"
+msgstr "Utløsende hendelse"
+
+#: includes/class-ywrfd-discounts-helper.php:207
+#@ yith-woocommerce-review-for-discounts
+msgid "Date"
+msgstr "Dato"
+
+#: includes/class-ywrfd-discounts-helper.php:250
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Review of %d specific product"
+msgid_plural "Review of %d specific products"
+msgstr[0] "Omtale av %d spesifikt produkt"
+msgstr[1] "Omtale av %d spesifikke produkter"
+
+#: includes/class-ywrfd-discounts-helper.php:251
+#: includes/class-ywrfd-discounts-helper.php:648
+#@ yith-woocommerce-review-for-discounts
+msgid "Products"
+msgstr "Produkter"
+
+#: includes/class-ywrfd-discounts-helper.php:273
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Review of any product of %d specific category"
+msgid_plural "Review of any product of %d specific categories"
+msgstr[0] "Omtale av ethvert produkt i %d spesifikk kategori"
+msgstr[1] "Omtale av ethvert produkt i %d spesifikke kategorier"
+
+#: includes/class-ywrfd-discounts-helper.php:274
+#: plugin-fw/lib/yit-cpt-unlimited.php:724
+#@ yith-woocommerce-review-for-discounts
+#@ yith-plugin-fw
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/class-ywrfd-discounts-helper.php:292
+#@ yith-woocommerce-review-for-discounts
+msgid "Review of any product"
+msgstr "Omtale av ethvert produkt"
+
+#: includes/class-ywrfd-discounts-helper.php:308
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "%s review written"
+msgid_plural "%s reviews written"
+msgstr[0] "%s omtale skrevet"
+msgstr[1] "%s omtaler skrevet"
+
+#: includes/class-ywrfd-discounts-helper.php:312
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Send notifications after %s reviews"
+msgstr "Send varslinger etter %s omtaler"
+
+#: includes/class-ywrfd-discounts-helper.php:420
+#@ yith-woocommerce-review-for-discounts
+msgid "Discount Options"
+msgstr "Rabatt alternativer"
+
+#: includes/class-ywrfd-discounts-helper.php:448
+#@ yith-woocommerce-review-for-discounts
+msgid "Description of the coupon"
+msgstr "Beskrivelse av kupongen"
+
+#: includes/class-ywrfd-discounts-helper.php:458
+#@ yith-woocommerce-review-for-discounts
+msgid "Single Review"
+msgstr "Enkeltomtale"
+
+#: includes/class-ywrfd-discounts-helper.php:459
+#@ yith-woocommerce-review-for-discounts
+msgid "Multiple Reviews"
+msgstr "Flere omtaler"
+
+#: includes/class-ywrfd-discounts-helper.php:461
+#@ yith-woocommerce-review-for-discounts
+msgid "When the coupon will be sent"
+msgstr "Når kupongen vil bli sendt"
+
+#: includes/class-ywrfd-discounts-helper.php:470
+#@ yith-woocommerce-review-for-discounts
+msgid "Leaving the following fields empty, users will receive a coupon for the review of any product"
+msgstr "Dersom følgende felt står tomme, vil brukerne motta en rabattkupong for sine omtaler av ethvert produkt."
+
+#: includes/class-ywrfd-discounts-helper.php:474
+#@ yith-woocommerce-review-for-discounts
+msgid "Triggering products"
+msgstr "Utløsende produkter"
+
+#: includes/class-ywrfd-discounts-helper.php:475
+#: includes/class-ywrfd-discounts-helper.php:649
+#@ yith-woocommerce-review-for-discounts
+msgid "Search for a product..."
+msgstr "Søk i produkter..."
+
+#: includes/class-ywrfd-discounts-helper.php:488
+#@ yith-woocommerce-review-for-discounts
+msgid "Products that will give a coupon if reviewed"
+msgstr "Produkter som vil utløse en rabattkupong hvis omtalt"
+
+#: includes/class-ywrfd-discounts-helper.php:492
+#@ yith-woocommerce-review-for-discounts
+msgid "Triggering product categories"
+msgstr "Utløsende produktkategorier"
+
+#: includes/class-ywrfd-discounts-helper.php:493
+#: includes/class-ywrfd-discounts-helper.php:667
+#@ yith-woocommerce-review-for-discounts
+msgid "Any category"
+msgstr "Enhver kategori"
+
+#: includes/class-ywrfd-discounts-helper.php:509
+#@ yith-woocommerce-review-for-discounts
+msgid "Reviewing products of the selected categories will send a coupon."
+msgstr "Omtale av et produkt tilhørende en av de valgte kategoriene vil utløse en rabattkupong."
+
+#: includes/class-ywrfd-discounts-helper.php:519
+#@ yith-woocommerce-review-for-discounts
+msgid "Requested quantity"
+msgstr "Ønsket antall"
+
+#: includes/class-ywrfd-discounts-helper.php:520
+#@ yith-woocommerce-review-for-discounts
+msgid "How many reviews have to be written to receive the coupon."
+msgstr "Hvor mange omtaler som må være skrevet for å utløse rabattkupongen."
+
+#: includes/class-ywrfd-discounts-helper.php:534
+#@ yith-woocommerce-review-for-discounts
+msgid "Send notification approaching requested quantity"
+msgstr "Send e-postvarsler når en tilnærmingen av ønsket antall er forestående"
+
+#: includes/class-ywrfd-discounts-helper.php:535
+#@ yith-woocommerce-review-for-discounts
+msgid "Send an email from a certain amount of review to get to the requested quantity to encourage users make other reviews"
+msgstr "Send en e-post når en tilnærmingen av ønsket antall er forestående, oppmuntre brukerne til å skrive flere omtaler."
+
+#: includes/class-ywrfd-discounts-helper.php:542
+#@ yith-woocommerce-review-for-discounts
+msgid "Initial quantity"
+msgstr "Førstegangs kvantitet"
+
+#: includes/class-ywrfd-discounts-helper.php:543
+#@ yith-woocommerce-review-for-discounts
+msgid "Set how many reviews are needed to start sending the email notifications."
+msgstr "Angi hvor mange omtaler som er nødvendig for å starte utsending av e-postvarsler."
+
+#: includes/class-ywrfd-discounts-helper.php:565
+#@ yith-woocommerce-review-for-discounts
+msgid "Discount type"
+msgstr "Rabatt type"
+
+#: includes/class-ywrfd-discounts-helper.php:574
+#@ yith-woocommerce-review-for-discounts
+msgid "Coupon amount"
+msgstr "Kupongverdi"
+
+#: includes/class-ywrfd-discounts-helper.php:576
+#@ yith-woocommerce-review-for-discounts
+msgid "Value of the coupon."
+msgstr "Verdien av kupongen"
+
+#: includes/class-ywrfd-discounts-helper.php:589
+#@ yith-woocommerce-review-for-discounts
+msgid "Validity days"
+msgstr "Gyldighet i dager"
+
+#: includes/class-ywrfd-discounts-helper.php:590
+#@ yith-woocommerce-review-for-discounts
+msgid "Set for how many days the coupon will be valid since the creation. Set to \"0\" for no expiration."
+msgstr "Angi hvor mange dager rabattkupongen vil være gyldig. Sett til \"0\" for ubegrenset gyldighet."
+
+#: includes/class-ywrfd-discounts-helper.php:603
+#@ yith-woocommerce-review-for-discounts
+msgid "Allow free shipping"
+msgstr "Tillat fraktfri levering"
+
+#: includes/class-ywrfd-discounts-helper.php:604
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Check this box if the coupon grants free shipping. The <a href=\"%s\">free shipping method</a> must be enabled and set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr "Merk denne boksen dersom kupongen gir gratis frakt. <a href=\"%s\">Gratis frakt</a> må være aktivert og satt til å fungere ved bruk av rabattkupong."
+
+#: includes/class-ywrfd-discounts-helper.php:617
+#@ yith-woocommerce-review-for-discounts
+msgid "Single use only"
+msgstr "Kun individuell bruk"
+
+#: includes/class-ywrfd-discounts-helper.php:618
+#@ yith-woocommerce-review-for-discounts
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr "Merk denne boksen dersom kupongen ikke kan benyttes sammen med andre kuponger."
+
+#: includes/class-ywrfd-discounts-helper.php:626
+#@ yith-woocommerce-review-for-discounts
+msgid "Minimum amount to spend"
+msgstr "Minimum beløp å bruke"
+
+#: includes/class-ywrfd-discounts-helper.php:627
+#@ yith-woocommerce-review-for-discounts
+msgid "No minimum"
+msgstr "Ingen minimum"
+
+#: includes/class-ywrfd-discounts-helper.php:628
+#@ yith-woocommerce-review-for-discounts
+msgid "This field allows you to set the minimum subtotal needed to use the coupon."
+msgstr "Dette feltet lar deg sette en minimum delsum som behøves for å gjøre bruk av rabattkupongen."
+
+#: includes/class-ywrfd-discounts-helper.php:638
+#@ yith-woocommerce-review-for-discounts
+msgid "Maximum amount to spend"
+msgstr "Maksimalt beløp å bruke"
+
+#: includes/class-ywrfd-discounts-helper.php:639
+#@ yith-woocommerce-review-for-discounts
+msgid "No maximum"
+msgstr "Ingen maksimum"
+
+#: includes/class-ywrfd-discounts-helper.php:640
+#@ yith-woocommerce-review-for-discounts
+msgid "This field allows you to set the maximum subtotal allowed when using the coupon."
+msgstr "Dette feltet lar deg sette en maksimal tillatt delsum for å gjøre bruk av rabattkupongen."
+
+#: includes/class-ywrfd-discounts-helper.php:662
+#@ yith-woocommerce-review-for-discounts
+msgid "Products which need to be in the cart to use this coupon; if \"Product Discounts\" is selected, set which products will be discounted."
+msgstr "Produkter som må være i handlekurven for å kunne bruke denne rabattkupongen. Hvis \"Produktrabatt\" er valgt, angi hvilke produkter som vil bli diskontert."
+
+#: includes/class-ywrfd-discounts-helper.php:666
+#@ yith-woocommerce-review-for-discounts
+msgid "Product categories"
+msgstr "Produktkategorier"
+
+#: includes/class-ywrfd-discounts-helper.php:683
+#@ yith-woocommerce-review-for-discounts
+msgid "A product must be in this category for the coupon to remain valid; if \"Product Discounts\" is selected, the products of these categories will be discounted."
+msgstr "Et produkt må være i denne kategorien for at rabattkupongen skal være gyldig. Hvis \"Produktrabatt\" er valgt, vil produkter i disse kategoriene bli diskontert."
+
+#: includes/class-ywrfd-discounts.php:147
+#@ yith-woocommerce-review-for-discounts
+msgid "10% discount on cart total"
+msgstr "10% rabatt på varene i handlekurven"
+
+#: includes/class-ywrfd-emails.php:313
+#@ yith-woocommerce-review-for-discounts
+msgid "Coupon code: "
+msgstr "Rabattkupong: "
+
+#: includes/class-ywrfd-emails.php:326
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Coupon amount: %s%s off"
+msgstr "Rabattkupongens verdi: %s%s"
+
+#: includes/class-ywrfd-emails.php:328
+#@ yith-woocommerce-review-for-discounts
+msgid "Free shipping"
+msgstr "Fraktfritt levert"
+
+#: includes/class-ywrfd-emails.php:334
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Valid for a minimum purchase of %s"
+msgstr "Gyldig for et minimum kjøp på %s"
+
+#: includes/class-ywrfd-emails.php:337
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Valid for a maximum purchase of %s"
+msgstr "Gyldig for et maksimum kjøp på %s"
+
+#: includes/class-ywrfd-emails.php:340
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Valid for a minimum purchase of %s and a maximum of %s"
+msgstr "Gyldig for et minimum kjøp på %s og et maksimum kjøp på %s"
+
+#: includes/class-ywrfd-emails.php:347
+#@ default
+msgid "Valid for:"
+msgstr ""
+
+#: includes/class-ywrfd-emails.php:350
+#: includes/class-ywrfd-emails.php:367
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Products: %s"
+msgstr "Produkter: %s"
+
+#: includes/class-ywrfd-emails.php:355
+#: includes/class-ywrfd-emails.php:372
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Products of these categories: %s"
+msgstr "Produkter i disse kategoriene: %s"
+
+#: includes/class-ywrfd-emails.php:364
+#@ default
+msgid "Not valid for:"
+msgstr ""
+
+#: includes/class-ywrfd-emails.php:380
+#@ yith-woocommerce-review-for-discounts
+msgid "This coupon cannot be used with other coupons"
+msgstr "Denne rabattkupongen kan ikke brukes sammen med andre rabattkuponger."
+
+#: includes/class-ywrfd-emails.php:384
+#@ yith-woocommerce-review-for-discounts
+msgid "This coupon will not be applied to items on sale"
+msgstr "Denne rabattkupongen gjelder ikke tilbudsvarer."
+
+#: includes/class-ywrfd-emails.php:393
+#, php-format
+#@ yith-woocommerce-review-for-discounts
+msgid "Expiration date: %s"
+msgstr "Rabattkupongen er gyldig til: %s"
+
+#: includes/class-ywrfd-multivendor.php:125
+#: includes/class-ywrfd-multivendor.php:126
+#@ yith-woocommerce-review-for-discounts
+msgid "Review For Discounts"
+msgstr "Omtale for rabatter"
+
+#: includes/class-ywrfd-multivendor.php:158
+#@ yith-woocommerce-review-for-discounts
+msgid "Coupon management must be enabled to make YITH WooCommerce Review for Discounts work correctly for vendors."
+msgstr "Bruk av rabattkupong må være aktivert for at \"Omtale for rabatt\" skal fungere korrekt for leverandører."
+
+#: includes/class-ywrfd-multivendor.php:164
+#@ yith-woocommerce-review-for-discounts
+msgid "Review management must be enabled to make YITH WooCommerce Review for Discounts work correctly for vendors."
+msgstr "Bruk av omtale må være aktivert for at \"Omtale for rabatt\" skal fungere korrekt for leverandører."
+
+#: includes/class-ywrfd-multivendor.php:496
+#@ yith-woocommerce-review-for-discounts
+msgid "Vendor"
+msgstr "Leverandør"
+
+#: init.php:23
+#@ yith-woocommerce-review-for-discounts
+msgid "YITH WooCommerce Review For Discounts is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Review For Discounts er aktivert, men ikke trådt i kraft. Dette plugin krever WooCommerce for å fungere."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:460
+#: plugin-fw/lib/yit-cpt-unlimited.php:574
+#: plugin-fw/lib/yit-cpt-unlimited.php:719
+#: plugin-fw/lib/yit-cpt-unlimited.php:1632
+#, php-format
+#@ yith-plugin-fw
+msgid "Add %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:461
+#: plugin-fw/lib/yit-cpt-unlimited.php:575
+#, php-format
+#@ yith-plugin-fw
+msgid "Add New %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:462
+#: plugin-fw/lib/yit-cpt-unlimited.php:576
+#: plugin-fw/lib/yit-cpt-unlimited.php:1267
+#: plugin-fw/lib/yit-cpt-unlimited.php:1304
+#, php-format
+#@ yith-plugin-fw
+msgid "Edit %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:463
+#: plugin-fw/lib/yit-cpt-unlimited.php:577
+#, php-format
+#@ yith-plugin-fw
+msgid "New %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:464
+#: plugin-fw/lib/yit-cpt-unlimited.php:578
+#, php-format
+#@ yith-plugin-fw
+msgid "All %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:465
+#: plugin-fw/lib/yit-cpt-unlimited.php:579
+#: plugin-fw/lib/yit-cpt-unlimited.php:1251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1305
+#, php-format
+#@ yith-plugin-fw
+msgid "View %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:466
+#: plugin-fw/lib/yit-cpt-unlimited.php:580
+#, php-format
+#@ yith-plugin-fw
+msgid "Search %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:467
+#: plugin-fw/lib/yit-cpt-unlimited.php:581
+#, php-format
+#@ yith-plugin-fw
+msgid "No %s found"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:468
+#: plugin-fw/lib/yit-cpt-unlimited.php:582
+#, php-format
+#@ yith-plugin-fw
+msgid "No %s found in Trash"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:625
+#, php-format
+#@ yith-plugin-fw
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:626
+#@ yith-plugin-fw
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:627
+#@ yith-plugin-fw
+msgid "Search Categories"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:628
+#@ yith-plugin-fw
+msgid "All Categories"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:629
+#@ yith-plugin-fw
+msgid "Parent Category"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:630
+#@ yith-plugin-fw
+msgid "Parent Category:"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:631
+#@ yith-plugin-fw
+msgid "Edit Category"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:632
+#@ yith-plugin-fw
+msgid "Update Category"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:633
+#@ yith-plugin-fw
+msgid "Add New Category"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:634
+#@ yith-plugin-fw
+msgid "New Category Name"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:635
+#@ yith-plugin-fw
+msgid "Category"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1042
+#, php-format
+#@ yith-plugin-fw
+msgid "%s Settings"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1051
+#@ yith-plugin-fw
+msgid "Type"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1052
+#, php-format
+#@ yith-plugin-fw
+msgid "Layout for this %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1058
+#@ yith-plugin-fw
+msgid "Rewrite"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1059
+#@ yith-plugin-fw
+msgid "Univocal identification name in the URL for each product (slug from post if empty)"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1064
+#@ yith-plugin-fw
+msgid "Label in Singular"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1065
+#@ yith-plugin-fw
+msgid "Set a label in singular (title of portfolio if empty)"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1070
+#@ yith-plugin-fw
+msgid "Label in Plural"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1071
+#@ yith-plugin-fw
+msgid "Set a label in plural (title of portfolio if empty)"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1076
+#@ yith-plugin-fw
+msgid "Taxonomy"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1077
+#@ yith-plugin-fw
+msgid "If you want to use categories in the portfolio, set a name for taxonomy. Name should be a slug (must not contain capital letters nor spaces) and must not be more than 32 characters long (database structure restriction)."
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1082
+#@ yith-plugin-fw
+msgid "Taxonomy Rewrite"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1083
+#@ yith-plugin-fw
+msgid "Set univocal name for each category page URL."
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1088
+#@ yith-plugin-fw
+msgid "Single layout"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1089
+#@ yith-plugin-fw
+msgid "Layout for single page of this portfolio"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1130
+#@ yith-plugin-fw
+msgid "layout settings"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1222
+#: plugin-fw/lib/yit-cpt-unlimited.php:1235
+#@ yith-plugin-fw
+msgid "Quick links"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1475
+#, php-format
+#@ yith-plugin-fw
+msgid "Show frontend of the %s"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1482
+#: plugin-fw/templates/metaboxes/types/customtabs.php:46
+#: plugin-fw/templates/metaboxes/types/customtabs.php:90
+#@ yith-plugin-fw
+msgid "Name"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1631
+#, php-format
+#@ yith-plugin-fw
+msgid "Add %s from images"
+msgstr ""
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1633
+#@ yith-plugin-fw
+msgid "Upload multiple files"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel-sidebar.php:421
+#: plugin-fw/templates/panel/sidebar/sidebar.php:3
+#@ yith-plugin-fw
+msgid "Hide sidebar"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel-sidebar.php:422
+#: plugin-fw/templates/panel/sidebar/sidebar.php:3
+#@ yith-plugin-fw
+msgid "Show sidebar"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel-wc.php:374
+#@ yith-plugin-fw
+msgid "The changes you have made will be lost if you leave this page."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:73
+#@ yith-plugin-fw
+msgid "Plugin Settings"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:116
+#@ yith-plugin-fw
+msgid "YITH Plugins"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:296
+#: plugin-fw/lib/yit-plugin-panel.php:299
+#@ yith-plugin-fw
+msgid "How to install premium version"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:351
+#: plugin-fw/lib/yit-plugin-subpanel.php:146
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:11
+#@ yith-plugin-fw
+msgid "Save Changes"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:354
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+#@ yith-plugin-fw
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:356
+#: plugin-fw/lib/yit-plugin-subpanel.php:151
+#@ yith-plugin-fw
+msgid "Reset to default"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:356
+#: plugin-fw/lib/yit-plugin-subpanel.php:151
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
+#@ yith-plugin-fw
+msgid "Are you sure?"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:552
+#@ yith-plugin-fw
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:553
+#@ yith-plugin-fw
+msgid "Settings saved"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:554
+#@ yith-plugin-fw
+msgid "Settings reset"
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:555
+#@ yith-plugin-fw
+msgid "Element deleted correctly."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:556
+#: plugin-fw/lib/yit-plugin-panel.php:557
+#@ yith-plugin-fw
+msgid "Element updated correctly."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:558
+#@ yith-plugin-fw
+msgid "Database imported correctly."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:559
+#@ yith-plugin-fw
+msgid "An error has occurred during import. Please try again."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:560
+#@ yith-plugin-fw
+msgid "The added file is not valid."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:561
+#@ yith-plugin-fw
+msgid "Sorry, import is disabled."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-panel.php:562
+#@ yith-plugin-fw
+msgid "Sorting successful."
+msgstr ""
+
+#: plugin-fw/lib/yit-plugin-subpanel.php:149
+#@ yith-plugin-fw
+msgid "If you continue with this action, you will reset all the options in this page."
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:70
+#@ yith-plugin-fw
+msgid "Plugins Activated"
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:71
+#@ yith-plugin-fw
+msgid ""
+"From now on, you can find all plugin options in YIT Plugin menu.\n"
+"                                     For each plugin installed, customization settings will be available as a new entry in YIT Plugin menu."
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:73
+#: plugin-fw/lib/yit-pointers.php:89
+#@ yith-plugin-fw
+msgid "Discover all our plugins available on:"
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:74
+#: plugin-fw/lib/yit-pointers.php:90
+#@ yith-plugin-fw
+msgid "and"
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:84
+#@ yith-plugin-fw
+msgid "Plugins Upgraded"
+msgstr ""
+
+#: plugin-fw/lib/yit-pointers.php:85
+#@ yith-plugin-fw
+msgid ""
+"From now on, you can find all options of your plugins in YIT Plugin menu.\n"
+"                                    Any time one of our plugins is updated, a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YIT Plugin tab."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:135
+#, php-format
+#@ yith-plugin-fw
+msgid "There is a new version of %plugin_name% available."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:136
+#, php-format
+#@ yith-plugin-fw
+msgid "View version %latest% details."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:137
+#@ yith-plugin-fw
+msgid "Automatic update is unavailable for this plugin,"
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:138
+#, php-format
+#@ yith-plugin-fw
+msgid "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:139
+#@ yith-plugin-fw
+msgid "Update now."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:240
+#@ yith-plugin-fw
+msgid "YIThemes Repository"
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:274
+#@ yit
+msgid "Invalid URL Provided."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:287
+#@ yit
+msgid "Could not create Temporary file."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:439
+#, php-format
+#@ yith-plugin-fw
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s details</a>."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:441
+#, php-format
+#@ yith-plugin-fw
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:443
+#, php-format
+#@ yith-plugin-fw
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin, please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy of %6s.</em>"
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:445
+#, php-format
+#@ yith-plugin-fw
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:517
+#@ yith-plugin-fw
+msgid "You can't update the plugins for this site."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:521
+#@ yith-plugin-fw
+msgid "You do not have sufficient permissions to update the plugins for this site."
+msgstr ""
+
+#: plugin-fw/lib/yit-upgrade.php:528
+#@ yith-plugin-fw
+msgid "Update Plugin"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:182
+#, php-format
+#@ yith-plugin-fw
+msgctxt "%s = field name"
+msgid "%s field cannot be empty"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:183
+#, php-format
+#@ yith-plugin-fw
+msgid "%s and %s fields cannot be empty"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:184
+#@ yith-plugin-fw
+msgid "Unable to contact the remote server, please try again later. Thanks!"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:185
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:88
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:166
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:197
+#: plugin-fw/templates/metaboxes/types/contactform.php:148
+#: plugin-fw/templates/metaboxes/types/contactform.php:340
+#@ yith-plugin-fw
+msgid "Email"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:186
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:89
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:167
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
+#@ yith-plugin-fw
+msgid "License Key"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:187
+#@ yith-plugin-fw
+msgid "Are you sure you want to deactivate the license for current site?"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:667
+#@ yith-plugin-fw
+msgid "Invalid Request"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:668
+#@ yith-plugin-fw
+msgid "Invalid license key"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:669
+#@ yith-plugin-fw
+msgid "Software has been deactivated"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:670
+#@ yith-plugin-fw
+msgid "Maximum number of activations exceeded"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:671
+#@ yith-plugin-fw
+msgid "Invalid instance ID"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:672
+#@ yith-plugin-fw
+msgid "Invalid security key"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:673
+#@ yith-plugin-fw
+msgid "License key has expired"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:674
+#@ yith-plugin-fw
+msgid "License key has been banned"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:675
+#@ woocommerce-software-add-on
+msgid "Current product is not included with your membership key"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:676
+#@ yith-plugin-fw
+msgid "Great"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:676
+#@ yith-plugin-fw
+msgid "License successfully activated"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-licence.php:677
+#@ woocommerce-software-add-on
+msgid "License key deactivated for website"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-plugin-licence.php:67
+#: plugin-fw/licence/lib/yit-plugin-licence.php:68
+#: plugin-fw/licence/lib/yit-theme-licence.php:69
+#: plugin-fw/licence/lib/yit-theme-licence.php:70
+#: plugin-fw/licence/lib/yit-theme-licence.php:109
+#: plugin-fw/licence/lib/yit-theme-licence.php:110
+#@ yith-plugin-fw
+msgid "License Activation"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:117
+#: plugin-fw/licence/lib/yit-theme-licence.php:118
+#, php-format
+#@ yith-plugin-fw
+msgid "%s"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:159
+#@ yith-plugin-fw
+msgid "I cannot find the license key for activating the theme I have bought some time ago. Where can I find it?"
+msgstr ""
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:163
+#@ yith-plugin-fw
+msgid ""
+"If you have purchased one of our products before 27 January 2015, you can benefit from support and updates (the services offered with the license)\n"
+"                    until 27 January 2016 and you do not have to purchase it again to get a new license key, because, before this date, your license used to be activated automatically by our system.\n"
+"                    After 27 January 2016, instead, if you want to benefit from support and updates you have to buy a new license and activate it through the license key you will be\n"
+"                    provided with and that you can find in your YIThemes account, in section \"My licenses\"."
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:23
+#@ yith-plugin-fw
+msgid "Yithemes License Activation"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:27
+#@ yith-plugin-fw
+msgid "Have you updated your licenses? Have you asked for an extension? Update information concerning your products."
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:29
+#@ yith-plugin-fw
+msgid "Update license information"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:42
+#@ yith-plugin-fw
+msgid "Product to activate"
+msgid_plural "Products to activate"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:61
+#@ yith-plugin-fw
+msgid "Activate"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:80
+#@ yith-plugin-fw
+msgid "Activated"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:86
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
+#@ yith-plugin-fw
+msgid "Product Name"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
+#@ yith-plugin-fw
+msgid "Expires"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:95
+#@ yith-plugin-fw
+msgid "Remaining"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:97
+#@ yith-plugin-fw
+msgid "Membership"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
+#@ yith-plugin-fw
+msgid "License Actions"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:126
+#, php-format
+#@ yith-plugin-fw
+msgid "%1s out of %2s"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:142
+#@ yith-plugin-fw
+msgid "Deactivate"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:147
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:204
+#@ yith-plugin-fw
+msgid "Renew"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:160
+#@ yith-plugin-fw
+msgid "Banned"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:190
+#@ yith-plugin-fw
+msgid "Expired"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:226
+#@ yith-plugin-fw
+msgid "Order again"
+msgstr ""
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:228
+#@ yith-plugin-fw
+msgid "Renew license"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/ajax-products.php:23
+#@ yith-plugin-fw
+msgid "Search for a product"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/categories.php:36
+#@ yith-plugin-fw
+msgid "No categories."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/categories.php:42
+#@ yith-plugin-fw
+msgid "+ Add New Category"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/categories.php:46
+#@ yit
+msgid "Add"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:7
+#@ yith-plugin-fw
+msgid "Text Input"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:8
+#@ yith-plugin-fw
+msgid "Checkbox"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:9
+#@ yith-plugin-fw
+msgid "Select"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:10
+#@ yith-plugin-fw
+msgid "Textarea"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:11
+#@ yith-plugin-fw
+msgid "Radio Input"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:12
+#@ yith-plugin-fw
+msgid "Password Field"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:13
+#@ yith-plugin-fw
+msgid "File Upload"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:47
+#@ yith-plugin-fw
+msgid "Theme Icon"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:48
+#@ yith-plugin-fw
+msgid "Custom Icon"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:49
+#: plugin-fw/templates/metaboxes/types/responsivesliders.php:24
+#@ yith-plugin-fw
+msgid "None"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:60
+#@ yith-plugin-fw
+msgid "Add field"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:69
+#: plugin-fw/templates/metaboxes/types/contactform.php:261
+#: plugin-fw/templates/metaboxes/types/customtabs.php:37
+#: plugin-fw/templates/metaboxes/types/customtabs.php:82
+#@ yith-plugin-fw
+msgid "Remove"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:70
+#: plugin-fw/templates/metaboxes/types/contactform.php:262
+#@ yith-plugin-fw
+msgid "Click to toggle"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:77
+#: plugin-fw/templates/metaboxes/types/contactform.php:269
+#@ yith-plugin-fw
+msgid "Field Title"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:81
+#: plugin-fw/templates/metaboxes/types/contactform.php:273
+#@ yith-plugin-fw
+msgid "Insert the title for the field."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:86
+#: plugin-fw/templates/metaboxes/types/contactform.php:278
+#@ yith-plugin-fw
+msgid "Data Name"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:90
+#: plugin-fw/templates/metaboxes/types/contactform.php:282
+#@ yith-plugin-fw
+msgid "REQUIRED: Field identification name to be entered into email body. <strong>Note:</strong>Use only lowercase characters and underscores."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:95
+#: plugin-fw/templates/metaboxes/types/contactform.php:287
+#@ yith-plugin-fw
+msgid "Field Type"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:103
+#: plugin-fw/templates/metaboxes/types/contactform.php:295
+#@ yith-plugin-fw
+msgid "Select the type for this field."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:108
+#: plugin-fw/templates/metaboxes/types/contactform.php:300
+#@ yith-plugin-fw
+msgid "Checked"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:112
+#: plugin-fw/templates/metaboxes/types/contactform.php:304
+#@ yith-plugin-fw
+msgid "Select this option if you want this field appears as already checked."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:117
+#: plugin-fw/templates/metaboxes/types/contactform.php:309
+#@ yith-plugin-fw
+msgid "Add options "
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:118
+#: plugin-fw/templates/metaboxes/types/contactform.php:310
+#@ yith-plugin-fw
+msgid "Add option"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:121
+#: plugin-fw/templates/metaboxes/types/contactform.php:313
+#: plugin-fw/templates/metaboxes/types/contactform.php:436
+#@ yith-plugin-fw
+msgid "Selected"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:124
+#: plugin-fw/templates/metaboxes/types/contactform.php:316
+#: plugin-fw/templates/metaboxes/types/contactform.php:436
+#@ yith-plugin-fw
+msgid "Delete option"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:130
+#: plugin-fw/templates/metaboxes/types/contactform.php:322
+#@ yith-plugin-fw
+msgid "Error Message"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:134
+#: plugin-fw/templates/metaboxes/types/contactform.php:326
+#@ yith-plugin-fw
+msgid "Insert the error message for validation."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:139
+#: plugin-fw/templates/metaboxes/types/contactform.php:331
+#@ yith-plugin-fw
+msgid "Required"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:143
+#: plugin-fw/templates/metaboxes/types/contactform.php:335
+#@ yith-plugin-fw
+msgid "Select this option if it must be required."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:152
+#: plugin-fw/templates/metaboxes/types/contactform.php:344
+#@ yith-plugin-fw
+msgid "Select this option if the email must be valid."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:157
+#: plugin-fw/templates/metaboxes/types/contactform.php:349
+#@ yith-plugin-fw
+msgid "Reply To"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:161
+#: plugin-fw/templates/metaboxes/types/contactform.php:353
+#@ yith-plugin-fw
+msgid "Select this if it is the email you can reply to."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:166
+#: plugin-fw/templates/metaboxes/types/contactform.php:358
+#@ yith-plugin-fw
+msgid "Class"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:170
+#: plugin-fw/templates/metaboxes/types/contactform.php:362
+#@ yith-plugin-fw
+msgid "Insert additional class(es) (separated by commas) for more personalization."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:175
+#: plugin-fw/templates/metaboxes/types/contactform.php:367
+#@ yith-plugin-fw
+msgid "Icon"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:203
+#: plugin-fw/templates/metaboxes/types/contactform.php:391
+#: plugin-fw/templates/metaboxes/types/icon-list.php:69
+#: plugin-fw/templates/metaboxes/types/select-icon.php:33
+#: plugin-fw/templates/metaboxes/types/upload.php:21
+#: plugin-fw/templates/panel/types/upload.php:31
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+#@ yith-plugin-fw
+msgid "Upload"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:209
+#: plugin-fw/templates/metaboxes/types/contactform.php:397
+#: plugin-fw/templates/metaboxes/types/icon-list.php:75
+#: plugin-fw/templates/metaboxes/types/select-icon.php:39
+#@ yith-plugin-fw
+msgid "Image preview"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:217
+#: plugin-fw/templates/metaboxes/types/contactform.php:405
+#@ yith-plugin-fw
+msgid "Insert an icon for more personalization."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:222
+#: plugin-fw/templates/metaboxes/types/contactform.php:409
+#@ yith-plugin-fw
+msgid "Width"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/contactform.php:247
+#: plugin-fw/templates/metaboxes/types/contactform.php:421
+#@ yith-plugin-fw
+msgid "Set field length."
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/customtabs.php:28
+#@ yith-plugin-fw
+msgid "Close all"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/customtabs.php:28
+#@ yith-plugin-fw
+msgid "Expand all"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/customtabs.php:52
+#: plugin-fw/templates/metaboxes/types/customtabs.php:95
+#@ yith-plugin-fw
+msgid "Value"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/customtabs.php:53
+#: plugin-fw/templates/metaboxes/types/customtabs.php:96
+#@ yith-plugin-fw
+msgid "Content of the tab. (HTML is supported)"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/customtabs.php:65
+#@ yith-plugin-fw
+msgid "Add custom product tab"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/customtabs.php:107
+#@ yith-plugin-fw
+msgid "Do you want to remove the custom tab?"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:89
+#, php-format
+#@ yith-plugin-fw
+msgid "(Default: %s <img src=\"%s\"/>)"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:91
+#, php-format
+#@ yith-plugin-fw
+msgid "(Default: <i %s></i> )"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:40
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+#: plugin-fw/templates/metaboxes/types/images.php:38
+#: plugin-fw/templates/metaboxes/types/images.php:64
+#@ yith-plugin-fw
+msgid "Delete image"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+#@ yith-plugin-fw
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+#@ yith-plugin-fw
+msgid "Add to gallery"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+#@ yith-plugin-fw
+msgid "Add images"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/image-gallery.php:45
+#@ yith-plugin-fw
+msgid "Delete"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/images.php:42
+#@ yith-plugin-fw
+msgid "Upload new images"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/images.php:75
+#@ yith-plugin-fw
+msgid "Are you sure you want to remove this image?"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:25
+#: plugin-fw/templates/metaboxes/types/sidebars.php:36
+#@ yith-plugin-fw
+msgid "Left sidebar"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:28
+#: plugin-fw/templates/metaboxes/types/sidebars.php:42
+#: plugin-fw/templates/metaboxes/types/sidebars.php:45
+#@ yith-plugin-fw
+msgid "No sidebar"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:31
+#: plugin-fw/templates/metaboxes/types/sidebars.php:39
+#@ yith-plugin-fw
+msgid "Right sidebar"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/sidebar-layout.php:34
+#: plugin-fw/templates/metaboxes/types/sidebars.php:53
+#: plugin-fw/templates/metaboxes/types/sidebars.php:64
+#@ yith-plugin-fw
+msgid "Choose a sidebar"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/sidebars.php:51
+#@ yith-plugin-fw
+msgid "Left Sidebar"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/sidebars.php:62
+#@ yith-plugin-fw
+msgid "Right Sidebar"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:42
+#@ yith-plugin-fw
+msgid "px"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:43
+#@ yith-plugin-fw
+msgid "em"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:44
+#@ yith-plugin-fw
+msgid "pt"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:45
+#@ yith-plugin-fw
+msgid "rem"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:59
+#: plugin-fw/templates/metaboxes/types/typography.php:153
+#: plugin-fw/templates/metaboxes/types/typography.php:217
+#@ yith-plugin-fw
+msgid "Web fonts"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:71
+#@ yith-plugin-fw
+msgid "Google fonts"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:96
+#@ yith-plugin-fw
+msgid "Regular"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:97
+#@ yith-plugin-fw
+msgid "Bold"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:98
+#@ yith-plugin-fw
+msgid "Extra bold"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:99
+#@ yith-plugin-fw
+msgid "Italic"
+msgstr ""
+
+#: plugin-fw/templates/metaboxes/types/typography.php:100
+#@ yith-plugin-fw
+msgid "Italic bold"
+msgstr ""
+
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:17
+#@ yit
+msgid "Join the club"
+msgstr ""
+
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:24
+#@ yit
+msgid "Despacho Theme - 100% FREE"
+msgstr ""
+
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:28
+#@ yit
+msgid "FREE!"
+msgstr ""
+
+#: plugin-fw/templates/panel/sidebar/widgets/widgets.php:34
+#@ yit
+msgid "Important Links"
+msgstr ""
+
+#: plugin-fw/templates/panel/types/upload.php:32
+#@ yith-plugin-fw
+msgid "Reset"
+msgstr ""
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:17
+#@ yith-plugin-fw
+msgid "Reset Defaults"
+msgstr ""
+
+#: plugin-options/general-options.php:20
+#: plugin-options/premium-general-options.php:20
+#: plugin-options/vendor/vendor-options.php:20
+#@ yith-woocommerce-review-for-discounts
+msgid "Allowed placeholders:"
+msgstr "Tillatte plassholdere"
+
+#: plugin-options/general-options.php:21
+#: plugin-options/premium-general-options.php:21
+#: plugin-options/vendor/vendor-options.php:21
+#@ yith-woocommerce-review-for-discounts
+msgid "More info"
+msgstr "Mer informasjon"
+
+#: plugin-options/general-options.php:34
+#: plugin-options/premium-general-options.php:37
+#: plugin-options/vendor/vendor-options.php:38
+#@ yith-woocommerce-review-for-discounts
+msgid "Review For Discounts settings"
+msgstr "\"Omtale for rabatt\" innstillinger"
+
+#: plugin-options/general-options.php:38
+#: plugin-options/premium-general-options.php:41
+#@ yith-woocommerce-review-for-discounts
+msgid "Enable YITH WooCommerce Review For Discounts"
+msgstr "Aktiver omtale for rabatt"
+
+#: plugin-options/general-options.php:42
+#@ yith-woocommerce-review-for-discounts
+msgid "For each approved review, customers will get a 10% discount coupon on cart total"
+msgstr "For hver godkjente omtale, vil kundene motta en \"10% rabatt på varene i handlekurven\" rabattkupong"
+
+#: plugin-options/general-options.php:49
+#: plugin-options/premium-general-options.php:69
+#@ yith-woocommerce-review-for-discounts
+msgid "Email settings for the single review"
+msgstr "E-postinnstillinger for enkeltomtale"
+
+#: plugin-options/general-options.php:53
+#: plugin-options/premium-general-options.php:73
+#: plugin-options/premium-general-options.php:127
+#: plugin-options/premium-general-options.php:181
+#: plugin-options/vendor/vendor-options.php:54
+#: plugin-options/vendor/vendor-options.php:109
+#: plugin-options/vendor/vendor-options.php:164
+#@ yith-woocommerce-review-for-discounts
+msgid "Email type"
+msgstr "E-post format"
+
+#: plugin-options/general-options.php:55
+#: plugin-options/premium-general-options.php:75
+#: plugin-options/premium-general-options.php:129
+#: plugin-options/premium-general-options.php:183
+#: plugin-options/vendor/vendor-options.php:56
+#: plugin-options/vendor/vendor-options.php:111
+#: plugin-options/vendor/vendor-options.php:166
+#@ yith-woocommerce-review-for-discounts
+msgid "Choose which email format you want to use"
+msgstr "Velg det e-post formatet du ønsker å bruke"
+
+#: plugin-options/general-options.php:57
+#: plugin-options/premium-general-options.php:77
+#: plugin-options/premium-general-options.php:131
+#: plugin-options/premium-general-options.php:185
+#: plugin-options/vendor/vendor-options.php:58
+#: plugin-options/vendor/vendor-options.php:113
+#: plugin-options/vendor/vendor-options.php:168
+#@ yith-woocommerce-review-for-discounts
+msgid "HTML"
+msgstr "HTML"
+
+#: plugin-options/general-options.php:58
+#: plugin-options/premium-general-options.php:78
+#: plugin-options/premium-general-options.php:132
+#: plugin-options/premium-general-options.php:186
+#: plugin-options/vendor/vendor-options.php:59
+#: plugin-options/vendor/vendor-options.php:114
+#: plugin-options/vendor/vendor-options.php:169
+#@ yith-woocommerce-review-for-discounts
+msgid "Plain text"
+msgstr "Ren tekst"
+
+#: plugin-options/general-options.php:64
+#: plugin-options/premium-general-options.php:84
+#: plugin-options/premium-general-options.php:138
+#: plugin-options/premium-general-options.php:192
+#: plugin-options/vendor/vendor-options.php:65
+#: plugin-options/vendor/vendor-options.php:120
+#: plugin-options/vendor/vendor-options.php:175
+#@ yith-woocommerce-review-for-discounts
+msgid "Email subject"
+msgstr "E-post emne"
+
+#: plugin-options/general-options.php:68
+#: plugin-options/premium-general-options.php:88
+#: plugin-options/premium-general-options.php:142
+#@ yith-woocommerce-review-for-discounts
+msgid "You have received a coupon from {site_title}"
+msgstr "[{site_title}] Du har mottatt en rabattkupong."
+
+#: plugin-options/general-options.php:75
+#: plugin-options/premium-general-options.php:95
+#: plugin-options/premium-general-options.php:149
+#: plugin-options/premium-general-options.php:203
+#: plugin-options/vendor/vendor-options.php:76
+#: plugin-options/vendor/vendor-options.php:131
+#: plugin-options/vendor/vendor-options.php:186
+#@ yith-woocommerce-review-for-discounts
+msgid "Email content"
+msgstr "E-post innhold"
+
+#: plugin-options/general-options.php:79
+#: plugin-options/premium-general-options.php:99
+#@ yith-woocommerce-review-for-discounts
+msgid ""
+"Hi {customer_name},\n"
+"thanks for the review about {product_name}!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{site_title}."
+msgstr ""
+"Hei {customer_name}!\n"
+"\n"
+"Takk for din omtale av {product_name}!\n"
+"Vennligst, ta imot denne rabattkupongen som en liten gave fra oss:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"Med vennlig hilsen,\n"
+"<strong>{site_title}</strong>"
+
+#: plugin-options/general-options.php:94
+#: plugin-options/premium-general-options.php:114
+#: plugin-options/premium-general-options.php:168
+#: plugin-options/premium-general-options.php:219
+#: plugin-options/vendor/vendor-options.php:95
+#: plugin-options/vendor/vendor-options.php:150
+#: plugin-options/vendor/vendor-options.php:202
+#@ yith-woocommerce-review-for-discounts
+msgid "Test email"
+msgstr "Test e-post"
+
+#: plugin-options/mandrill-options.php:22
+#@ yith-woocommerce-review-for-discounts
+msgid "Enable Mandrill"
+msgstr "Aktiver Mandrill"
+
+#: plugin-options/mandrill-options.php:24
+#@ yith-woocommerce-review-for-discounts
+msgid "Use Mandrill to send emails"
+msgstr "Bruk Mandrill til å sende e-poster"
+
+#: plugin-options/mandrill-options.php:29
+#@ yith-woocommerce-review-for-discounts
+msgid "Mandrill API Key"
+msgstr "Mandrill API-nøkkel"
+
+#: plugin-options/premium-general-options.php:47
+#: templates/admin/class-ywrfd-custom-vendor-panel.php:79
+#@ yith-woocommerce-review-for-discounts
+msgid "The coupon will be sent"
+msgstr "Kupongen sendes"
+
+#: plugin-options/premium-general-options.php:49
+#@ yith-woocommerce-review-for-discounts
+msgid "Choose when coupon will be sent"
+msgstr "Angi når kupongen vil bli sendt"
+
+#: plugin-options/premium-general-options.php:51
+#: templates/admin/class-ywrfd-custom-vendor-panel.php:85
+#@ yith-woocommerce-review-for-discounts
+msgid "After review approval"
+msgstr "Etter godkjenning av omtale"
+
+#: plugin-options/premium-general-options.php:52
+#: templates/admin/class-ywrfd-custom-vendor-panel.php:89
+#@ yith-woocommerce-review-for-discounts
+msgid "After review composition"
+msgstr "Etter at omtalen er skrevet"
+
+#: plugin-options/premium-general-options.php:58
+#: templates/admin/class-ywrfd-custom-vendor-panel.php:97
+#@ yith-woocommerce-review-for-discounts
+msgid "Deletion of Expired Coupons"
+msgstr "Sletting av utløpte kuponger"
+
+#: plugin-options/premium-general-options.php:60
+#@ yith-woocommerce-review-for-discounts
+msgid "Delete automatically expired coupons (only those created by this plugin)"
+msgstr "Sletter utløpte kuponger automatisk (Kun de som er opprettet av denne plugin)."
+
+#: plugin-options/premium-general-options.php:123
+#: plugin-options/vendor/vendor-options.php:105
+#@ yith-woocommerce-review-for-discounts
+msgid "Email settings for multiple reviews"
+msgstr "E-postinnstillinger for flere omtaler"
+
+#: plugin-options/premium-general-options.php:153
+#@ yith-woocommerce-review-for-discounts
+msgid ""
+"Hi {customer_name},\n"
+"with the latest review you have written {total_reviews} reviews!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{site_title}."
+msgstr ""
+"Hei {customer_name}!\n"
+"\n"
+"Med den siste omtalen har du nå skrevet {total_reviews} omtaler!\n"
+"Vennligst, ta imot denne rabattkupongen som en liten gave fra oss:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"Med vennlig hilsen,\n"
+"<strong>{site_title}</strong>"
+
+#: plugin-options/premium-general-options.php:177
+#@ yith-woocommerce-review-for-discounts
+msgid "Email settings for approaching requested quantity"
+msgstr "E-postinnstillinger for tilnærmingen av ønsket antall"
+
+#: plugin-options/premium-general-options.php:196
+#@ yith-woocommerce-review-for-discounts
+msgid "You are getting near to an important goal on {site_title}"
+msgstr "[{site_title}] Du nærmer deg et viktig mål."
+
+#: plugin-options/premium-general-options.php:207
+#@ yith-woocommerce-review-for-discounts
+msgid ""
+"Hi {customer_name},\n"
+"you need still {remaining_reviews} reviews and you will get a coupon for our shop!\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{site_title}."
+msgstr ""
+"Hei {customer_name}!\n"
+"\n"
+"Du trenger fremdeles å skrive {remaining_reviews} omtaler og du vil som takk for innsatsen motta en rabattkupong til bruk i vår nettbutikk!\n"
+"\n"
+"Med vennlig hilsen,\n"
+"<strong>{site_title}</strong>"
+
+#: plugin-options/vendor/vendor-options.php:39
+#@ yith-woocommerce-review-for-discounts
+msgid "Only administrators of the site can manage these settings"
+msgstr "Kun nettstedets administratorer kan administrere disse innstillingene"
+
+#: plugin-options/vendor/vendor-options.php:50
+#@ yith-woocommerce-review-for-discounts
+msgid "Email settings for single review"
+msgstr "E-postinnstillinger for enkeltomtaler"
+
+#: plugin-options/vendor/vendor-options.php:69
+#: plugin-options/vendor/vendor-options.php:124
+#@ yith-woocommerce-review-for-discounts
+msgid "You have received a coupon from {vendor_name} on {site_title}"
+msgstr "Du har mottatt en rabattkupong fra {vendor_name} hos {site_title}"
+
+#: plugin-options/vendor/vendor-options.php:80
+#@ yith-woocommerce-review-for-discounts
+msgid ""
+"Hi {customer_name},\n"
+"thanks for the review about {product_name}!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{vendor_name}."
+msgstr ""
+"Hei {customer_name}!\n"
+"\n"
+"Takk for din omtale av {product_name}!\n"
+"Vennligst, ta imot denne rabattkupongen som en liten gave fra oss:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"Med vennlig hilsen,\n"
+"<strong>{vendor_name}</strong>"
+
+#: plugin-options/vendor/vendor-options.php:135
+#@ yith-woocommerce-review-for-discounts
+msgid ""
+"Hi {customer_name},\n"
+"with the latest review you have written {total_reviews} reviews!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{vendor_name}."
+msgstr ""
+"Hei {customer_name}!\n"
+"\n"
+"Med den siste omtalen har du nå skrevet {total_reviews} omtaler!\n"
+"Vennligst, ta imot denne rabattkupongen som en liten gave fra oss:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"Med vennlig hilsen,\n"
+"<strong>{vendor_name}</strong>"
+
+#: plugin-options/vendor/vendor-options.php:160
+#@ yith-woocommerce-review-for-discounts
+msgid "Email settings for avviso di avvicinamento ad un obiettivo"
+msgstr "E-postinnstillinger for tilnærmingen av ønsket antall"
+
+#: plugin-options/vendor/vendor-options.php:179
+#@ yith-woocommerce-review-for-discounts
+msgid "You are getting near to an important goal on {vendor_name} su {site_title}"
+msgstr "Du nærmer deg et viktig mål hos {vendor_name} via {site_title}"
+
+#: plugin-options/vendor/vendor-options.php:190
+#@ yith-woocommerce-review-for-discounts
+msgid ""
+"Hi {customer_name},\n"
+"you need still {remaining_reviews} reviews and you will get a coupon for our shop!\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{vendor_name}."
+msgstr ""
+"Hei {customer_name}!\n"
+"\n"
+"Du trenger fremdeles å skrive {remaining_reviews} omtaler og du vil som takk for innsatsen motta en rabattkupong til bruk i vår nettbutikk!\n"
+"\n"
+"Med vennlig hilsen,\n"
+"<strong>{vendor_name}</strong>"
+
+#: templates/admin/class-ywrfd-custom-coupon-purge.php:110
+#@ yith-woocommerce-review-for-discounts
+msgid "Delete expired coupons"
+msgstr "Slett utløpte rabattkuponger"
+
+#: templates/admin/class-ywrfd-custom-coupon-purge.php:111
+#@ yith-woocommerce-review-for-discounts
+msgid "Deleting expired coupons..."
+msgstr "Sletting av utløpte rabattkuponger pågår..."
+
+#: templates/admin/class-ywrfd-custom-send.php:87
+#@ yith-woocommerce-review-for-discounts
+msgid "Type an email address to send a test email"
+msgstr "Skriv inn en e-postadresse for mottak av testmeldingen"
+
+#: templates/admin/class-ywrfd-custom-send.php:90
+#@ yith-woocommerce-review-for-discounts
+msgid "Send Test Email"
+msgstr "Send testmelding"
+
+#: templates/admin/class-ywrfd-custom-vendor-panel.php:103
+#@ yith-woocommerce-review-for-discounts
+msgid "Expired coupons will be deleted automatically"
+msgstr "Utløpte rabattkuponger vil bli slettet automatisk"
+
+#: templates/admin/class-ywrfd-custom-vendor-panel.php:107
+#@ yith-woocommerce-review-for-discounts
+msgid "Expired coupons must be deleted manually"
+msgstr "Utløpte rabattkuponger må slettes manuelt"
+

@@ -1,0 +1,905 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Review For Discounts\n"
+"POT-Creation-Date: 2018-05-12 11:51+0200\n"
+"PO-Revision-Date: 2018-07-09 10:01+0200\n"
+"Language-Team: Josselyn Jayant <contact@josselynjayant.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wc-review-for-discounts-premium.php:468
+msgid ""
+"This option cannot be modified because you have set YITH WooCommerce Review "
+"for Discounts to send coupons only after approval."
+msgstr ""
+"L’option ne peut pas être modifiée car vous avez réglé YITH WooCommerce "
+"Review for Discounts afin qu’il fasse parvenir des coupons seulement après "
+"validation."
+
+#: ../class.yith-wc-review-for-discounts-premium.php:748
+#: ../class.yith-wc-review-for-discounts.php:388
+msgid ""
+"Comment moderation has been enabled to make YITH WooCommerce Review for "
+"Discounts work correctly."
+msgstr ""
+"La modération des commentaires a été activée afin que YITH WooCommerce "
+"Review for Discounts fonctionne correctement."
+
+#: ../class.yith-wc-review-for-discounts-premium.php:762
+#: ../class.yith-wc-review-for-discounts.php:402
+#, php-format
+msgid ""
+"Comment moderation is enabled but is not essential to make YITH WooCommerce "
+"Review for Discounts work correctly. If you want to change this option click "
+"%s here %s"
+msgstr ""
+"La modération des commentaires est activé mais n’est pas essentielle afin "
+"que YITH WooCommerce Review for Discounts fonctionne correctement. Si vous "
+"voulez changer cette option cliquez %s ici %s"
+
+#: ../class.yith-wc-review-for-discounts.php:189
+#: ../class.yith-wc-review-for-discounts.php:192
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: ../class.yith-wc-review-for-discounts.php:190
+#: ../plugin-options/mandrill-options.php:18
+msgid "Mandrill Settings"
+msgstr "Réglages de Mandrill"
+
+#: ../class.yith-wc-review-for-discounts.php:193
+#: ../class.yith-wc-review-for-discounts.php:735
+msgid "Premium Version"
+msgstr "Version premium"
+
+#: ../class.yith-wc-review-for-discounts.php:196
+#: ../includes/class-ywrfd-multivendor.php:122
+msgid "How To"
+msgstr "Aide"
+
+#: ../class.yith-wc-review-for-discounts.php:202
+msgctxt "plugin name in admin page title"
+msgid "Review For Discounts"
+msgstr "Review For Discounts"
+
+#: ../class.yith-wc-review-for-discounts.php:203
+msgctxt "plugin name in admin WP menu"
+msgid "Review For Discounts"
+msgstr "Review For Discounts"
+
+#: ../class.yith-wc-review-for-discounts.php:239
+msgid ""
+"This option cannot be modified because it is essential for YITH WooCommerce "
+"Review for Discounts to work correctly."
+msgstr ""
+"Cette option ne peut être modifiée car elle est essentielle pour que YITH "
+"WooCommerce Review for Discounts fonctionne correctement."
+
+#: ../class.yith-wc-review-for-discounts.php:240
+#: ../templates/admin/class-ywrfd-custom-send.php:91
+msgid "Sending test email..."
+msgstr "Envoi de mail de test…"
+
+#: ../class.yith-wc-review-for-discounts.php:241
+msgid "Test email has been sent successfully!"
+msgstr "Le mail de test a été envoyé avec succès!"
+
+#: ../class.yith-wc-review-for-discounts.php:242
+msgid "Please insert a valid email address"
+msgstr "Merci de renseigner une adresse email valide"
+
+#: ../class.yith-wc-review-for-discounts.php:261
+msgid "Placeholder list"
+msgstr "Liste des espaces réservés"
+
+#: ../class.yith-wc-review-for-discounts.php:270
+msgid "How coupon works. This placeholder must be included."
+msgstr ""
+"Comment fonctionne le coupon, cet espace réservé doit être inclus au mail."
+
+#: ../class.yith-wc-review-for-discounts.php:278
+msgid "Site title"
+msgstr "Nom du site"
+
+#: ../class.yith-wc-review-for-discounts.php:286
+msgid "Customer's name"
+msgstr "Prénom du client"
+
+#: ../class.yith-wc-review-for-discounts.php:294
+msgid "Customer's last name"
+msgstr "Nom du client"
+
+#: ../class.yith-wc-review-for-discounts.php:302
+msgid "Customer's email"
+msgstr "Email du client"
+
+#: ../class.yith-wc-review-for-discounts.php:310
+msgid "Name of the reviewed product"
+msgstr "Nom du produit sur lequel le client a laissé son avis"
+
+#: ../class.yith-wc-review-for-discounts.php:321
+msgid "Total reviews of an user"
+msgstr "Nombre total d’avis d’un client"
+
+#: ../class.yith-wc-review-for-discounts.php:330
+msgid "How many reviews the user has to write to achieve an objective"
+msgstr "Combien d’avis l’utilisateur doit laisser afin d’atteindre l’objectif"
+
+#: ../class.yith-wc-review-for-discounts.php:340
+msgid "Name of the vendor"
+msgstr "Nom du vendeur"
+
+#: ../class.yith-wc-review-for-discounts.php:732
+#: ../includes/class-ywrfd-multivendor.php:121
+msgid "Settings"
+msgstr "Réglages"
+
+#: ../class.yith-wc-review-for-discounts.php:762
+msgid "Plugin Documentation"
+msgstr "Documentation du plugin"
+
+#: ../includes/class-ywrfd-ajax-premium.php:152
+#, php-format
+msgid "Operation completed. %d coupon trashed."
+msgid_plural "Operation completed. %d coupons trashed."
+msgstr[0] "Opération terminée. %d coupon supprimé."
+msgstr[1] "Opération terminée. %d coupons supprimés."
+
+#: ../includes/class-ywrfd-ajax-premium.php:157
+#, php-format
+msgid "An error occurred: %s"
+msgstr "Une erreur est survenue: %s"
+
+#: ../includes/class-ywrfd-ajax.php:117
+msgid "There was an error while sending the email"
+msgstr "Il y a eu une erreur lors de l’envoi du mail"
+
+#: ../includes/class-ywrfd-coupon-email.php:46
+msgid ""
+"Reward your customers with a gentle discount: approve their reviews and "
+"encourage them to purchase again in your shop!"
+msgstr ""
+"Récompensez vos clients avec une réduction: approuvez leurs avis et "
+"encouragez-les à acheter à nouveau sur votre boutique!"
+
+#: ../includes/class-ywrfd-coupon-email.php:47
+msgid "Review For Discounts Emails"
+msgstr "Review For Discounts Emails"
+
+#: ../includes/class-ywrfd-discounts-helper.php:101
+msgctxt "Post Type General Name"
+msgid "Review Discounts"
+msgstr "Review Discounts"
+
+#: ../includes/class-ywrfd-discounts-helper.php:102
+msgctxt "Post Type Singular Name"
+msgid "Review Discount"
+msgstr "Review Discount"
+
+#: ../includes/class-ywrfd-discounts-helper.php:103
+msgid "Add New Review Discount"
+msgstr "Ajouter un nouveau coupon d’avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:104
+msgid "Add Review Discount"
+msgstr "Ajouter un coupon d’avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:105
+msgid "New Review Discount"
+msgstr "Nouveau coupon d’avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:106
+msgid "Edit Review Discount"
+msgstr "Modifier le coupon d’avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:107
+msgid "View Review Discount"
+msgstr "Voir le coupon d’avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:108
+msgid "Search Review Discount"
+msgstr "Chercher un coupon d’avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:109
+msgid "Not found"
+msgstr "Introuvable"
+
+#: ../includes/class-ywrfd-discounts-helper.php:110
+msgid "Not found in Trash"
+msgstr "Non trouvé dans la corbeille"
+
+#: ../includes/class-ywrfd-discounts-helper.php:204
+msgid "Title"
+msgstr "Titre"
+
+#: ../includes/class-ywrfd-discounts-helper.php:205
+msgid "Description"
+msgstr "Description"
+
+#: ../includes/class-ywrfd-discounts-helper.php:206
+#: ../includes/class-ywrfd-discounts-helper.php:456
+msgid "Triggering event"
+msgstr "Événement déclenchant"
+
+#: ../includes/class-ywrfd-discounts-helper.php:207
+msgid "Date"
+msgstr "Date"
+
+#: ../includes/class-ywrfd-discounts-helper.php:250
+#, php-format
+msgid "Review of %d specific product"
+msgid_plural "Review of %d specific products"
+msgstr[0] "Avis de %d produit spécifique"
+msgstr[1] "Avis de %d produits spécifiques"
+
+#: ../includes/class-ywrfd-discounts-helper.php:251
+#: ../includes/class-ywrfd-discounts-helper.php:672
+msgid "Products"
+msgstr "Produits"
+
+#: ../includes/class-ywrfd-discounts-helper.php:273
+#, php-format
+msgid "Review of any product of %d specific category"
+msgid_plural "Review of any product of %d specific categories"
+msgstr[0] "Avis de tous les produit de %d la catégorie spécifique"
+msgstr[1] "Avis de tous les produit de %d des catégories spécifiques"
+
+#: ../includes/class-ywrfd-discounts-helper.php:274
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../includes/class-ywrfd-discounts-helper.php:292
+msgid "Review of any product"
+msgstr "Avis d'un produit"
+
+#: ../includes/class-ywrfd-discounts-helper.php:308
+#, php-format
+msgid "%s review written"
+msgid_plural "%s reviews written"
+msgstr[0] "%s avis écrit"
+msgstr[1] "%s avis écrits"
+
+#: ../includes/class-ywrfd-discounts-helper.php:312
+#, php-format
+msgid "Send notifications after %s reviews"
+msgstr "Envoyer une notification après %s avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:420
+msgid "Discount Options"
+msgstr "Options de la remise"
+
+#: ../includes/class-ywrfd-discounts-helper.php:448
+msgid "Description of the coupon"
+msgstr "Description du coupon"
+
+#: ../includes/class-ywrfd-discounts-helper.php:458
+msgid "Single Review"
+msgstr "Avis simple"
+
+#: ../includes/class-ywrfd-discounts-helper.php:459
+msgid "Multiple Reviews"
+msgstr "Plusieurs avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:461
+msgid "When the coupon will be sent"
+msgstr "Quand le coupon sera t’il envoyé"
+
+#: ../includes/class-ywrfd-discounts-helper.php:470
+msgid ""
+"Leaving the following fields empty, users will receive a coupon for the "
+"review of any product"
+msgstr ""
+"En laissant les champs suivants vides, les utilisateurs recevront un coupon "
+"après un avis laissé sur n’importe quel produit"
+
+#: ../includes/class-ywrfd-discounts-helper.php:474
+msgid "Triggering products"
+msgstr "Produits déclencheurs"
+
+#: ../includes/class-ywrfd-discounts-helper.php:493
+#: ../includes/class-ywrfd-discounts-helper.php:689
+msgid "Search for a product..."
+msgstr "Chercher un produit…"
+
+#: ../includes/class-ywrfd-discounts-helper.php:504
+msgid "Products that will give a coupon if reviewed"
+msgstr "Les produits qui déclencheront un coupon après un avis"
+
+#: ../includes/class-ywrfd-discounts-helper.php:510
+msgid "Triggering product categories"
+msgstr "Catégories de produit déclencheurs"
+
+#: ../includes/class-ywrfd-discounts-helper.php:530
+msgid "Reviewing products of the selected categories will send a coupon."
+msgstr ""
+"En laissant un avis sur les produits des catégories sélectionnées un coupon "
+"sera envoyé."
+
+#: ../includes/class-ywrfd-discounts-helper.php:543
+msgid "Requested quantity"
+msgstr "Quantité demandée"
+
+#: ../includes/class-ywrfd-discounts-helper.php:544
+msgid "How many reviews have to be written to receive the coupon."
+msgstr "Combien d'avis doit être écrits pour recevoir le coupon."
+
+#: ../includes/class-ywrfd-discounts-helper.php:558
+msgid "Send notification approaching requested quantity"
+msgstr "Envoyer une notification lorsque l'on approche de la quantité demandée"
+
+#: ../includes/class-ywrfd-discounts-helper.php:559
+msgid ""
+"Send an email from a certain amount of review to get to the requested "
+"quantity to encourage users make other reviews"
+msgstr ""
+"Envoyer un e-mail à partir d'un certain nombre d'avis pour accéder à la "
+"quantité demandée afin d'encourager les utilisateurs à faire d'autres "
+"commentaires"
+
+#: ../includes/class-ywrfd-discounts-helper.php:566
+msgid "Initial quantity"
+msgstr "Quantité initiale"
+
+#: ../includes/class-ywrfd-discounts-helper.php:567
+msgid ""
+"Set how many reviews are needed to start sending the email notifications."
+msgstr ""
+"Définissez le nombre d'avis requis pour commencer à envoyer les "
+"notifications par e-mail."
+
+#: ../includes/class-ywrfd-discounts-helper.php:589
+msgid "Discount type"
+msgstr "Type de remise"
+
+#: ../includes/class-ywrfd-discounts-helper.php:598
+msgid "Coupon amount"
+msgstr "Montant du coupon"
+
+#: ../includes/class-ywrfd-discounts-helper.php:600
+msgid "Value of the coupon."
+msgstr "Valeur du coupon."
+
+#: ../includes/class-ywrfd-discounts-helper.php:613
+msgid "Validity days"
+msgstr "Validité en jours"
+
+#: ../includes/class-ywrfd-discounts-helper.php:614
+msgid ""
+"Set for how many days the coupon will be valid since the creation. Set to "
+"\"0\" for no expiration."
+msgstr ""
+"Définir pour combien de jours le coupon sera valide après sa création. "
+"Mettre « 0 » pour qu’il n’expire pas."
+
+#: ../includes/class-ywrfd-discounts-helper.php:627
+msgid "Allow free shipping"
+msgstr "Frais de port offert"
+
+#: ../includes/class-ywrfd-discounts-helper.php:628
+#, php-format
+msgid ""
+"Check this box if the coupon grants free shipping. The <a href=\"%s\">free "
+"shipping method</a> must be enabled and set to require \"a valid free "
+"shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr ""
+"Cocher cette case si le coupon donne droit à la livraison gratuite. La <a "
+"href=\"%s\">méthode de livraison gratuite</a> doit être activée et requiert "
+"un coupon de livraison gratuit."
+
+#: ../includes/class-ywrfd-discounts-helper.php:641
+msgid "Single use only"
+msgstr "Utilisation individuelle"
+
+#: ../includes/class-ywrfd-discounts-helper.php:642
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+"Cocher cette case si le coupon ne peut pas être utilisé avec d'autres "
+"coupons."
+
+#: ../includes/class-ywrfd-discounts-helper.php:650
+msgid "Minimum amount to spend"
+msgstr "Montant minimum à dépenser"
+
+#: ../includes/class-ywrfd-discounts-helper.php:651
+msgid "No minimum"
+msgstr "Pas de minimum"
+
+#: ../includes/class-ywrfd-discounts-helper.php:652
+msgid ""
+"This field allows you to set the minimum subtotal needed to use the coupon."
+msgstr ""
+"Ce champ vous permet de définir un montant total minimum à avoir pour "
+"utiliser le coupon."
+
+#: ../includes/class-ywrfd-discounts-helper.php:662
+msgid "Maximum amount to spend"
+msgstr "Montant maximum à dépenser"
+
+#: ../includes/class-ywrfd-discounts-helper.php:663
+msgid "No maximum"
+msgstr "Pas de maximum"
+
+#: ../includes/class-ywrfd-discounts-helper.php:664
+msgid ""
+"This field allows you to set the maximum subtotal allowed when using the "
+"coupon."
+msgstr ""
+"Ce champ vous permet définir un total maximum à dépenser avec l'utilisation "
+"de ce coupon."
+
+#: ../includes/class-ywrfd-discounts-helper.php:700
+msgid ""
+"Products which need to be in the cart to use this coupon; if \"Product "
+"Discounts\" is selected, set which products will be discounted."
+msgstr ""
+"Les produits qui doivent être dans le panier pour utiliser ce coupon; Si "
+"\"Remises produit\" est sélectionné, définissez les produits qui seront "
+"actualisés."
+
+#: ../includes/class-ywrfd-discounts-helper.php:707
+msgid "Product categories"
+msgstr "Catégories de produit"
+
+#: ../includes/class-ywrfd-discounts-helper.php:726
+msgid ""
+"A product must be in this category for the coupon to remain valid; if "
+"\"Product Discounts\" is selected, the products of these categories will be "
+"discounted."
+msgstr ""
+"Un produit doit être dans cette catégorie pour que le coupon reste valide; "
+"Si \"Remises sur les produits\" est sélectionné, les produits de ces "
+"catégories seront réduits."
+
+#: ../includes/class-ywrfd-discounts.php:147
+#, php-format
+msgid "10% discount on cart total"
+msgstr "10% de remise sur la totalité du panier"
+
+#: ../includes/class-ywrfd-emails.php:343
+msgid "Coupon code: "
+msgstr "Code du coupon: "
+
+#: ../includes/class-ywrfd-emails.php:356
+#, php-format
+msgid "Coupon amount: %s%s off"
+msgstr "Montant du coupon: %s%s"
+
+#: ../includes/class-ywrfd-emails.php:358
+msgid "Free shipping"
+msgstr "Expédition gratuite"
+
+#: ../includes/class-ywrfd-emails.php:364
+#, php-format
+msgid "Valid for a minimum purchase of %s"
+msgstr "Valide pour un minimum d'achat de %s"
+
+#: ../includes/class-ywrfd-emails.php:367
+#, php-format
+msgid "Valid for a maximum purchase of %s"
+msgstr "Valide pour un maximum d'achat de %s"
+
+#: ../includes/class-ywrfd-emails.php:370
+#, php-format
+msgid "Valid for a minimum purchase of %s and a maximum of %s"
+msgstr "Valide pour un minimum d'achat de %s et d'un maximum de %s"
+
+#: ../includes/class-ywrfd-emails.php:377
+msgid "Valid for:"
+msgstr "Valide pour:"
+
+#: ../includes/class-ywrfd-emails.php:380
+#: ../includes/class-ywrfd-emails.php:397
+#, php-format
+msgid "Products: %s"
+msgstr "Produits: %s"
+
+#: ../includes/class-ywrfd-emails.php:385
+#: ../includes/class-ywrfd-emails.php:402
+#, php-format
+msgid "Products of these categories: %s"
+msgstr "Produits de ces catégories: %s"
+
+#: ../includes/class-ywrfd-emails.php:394
+msgid "Not valid for:"
+msgstr "Non valide pour:"
+
+#: ../includes/class-ywrfd-emails.php:410
+msgid "This coupon cannot be used with other coupons"
+msgstr "Ce coupon ne peut être utilisé avec d'autres coupons"
+
+#: ../includes/class-ywrfd-emails.php:414
+msgid "This coupon will not be applied to items on sale"
+msgstr "Ce coupon ne sera pas appliqué aux produits en promotion"
+
+#: ../includes/class-ywrfd-emails.php:423
+#, php-format
+msgid "Expiration date: %s"
+msgstr "Date d'expiration: %s"
+
+#: ../includes/class-ywrfd-multivendor.php:128
+#: ../includes/class-ywrfd-multivendor.php:129
+msgid "Review For Discounts"
+msgstr "Review For Discounts"
+
+#: ../includes/class-ywrfd-multivendor.php:161
+msgid ""
+"Coupon management must be enabled to make YITH WooCommerce Review for "
+"Discounts work correctly for vendors."
+msgstr ""
+"La gestion des coupon doit être activée pour que YITH WooCommerce Review for "
+"Discounts fonctionne correctement pour les vendeurs."
+
+#: ../includes/class-ywrfd-multivendor.php:167
+msgid ""
+"Review management must be enabled to make YITH WooCommerce Review for "
+"Discounts work correctly for vendors."
+msgstr ""
+"La gestion des avis doit être activée pour que YITH WooCommerce Review for "
+"Discounts fonctionne correctement pour les vendeurs."
+
+#: ../includes/class-ywrfd-multivendor.php:573
+msgid "Vendor"
+msgstr "Vendeur"
+
+#: ../init.php:25
+msgid ""
+"YITH WooCommerce Review For Discounts is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Review For Discounts est activé mais ne fonctionne pas. Il "
+"requiert WooCommerce pour fonctionner."
+
+#: ../plugin-options/general-options.php:20
+#: ../plugin-options/premium-general-options.php:20
+#: ../plugin-options/vendor/vendor-options.php:20
+msgid "Allowed placeholders:"
+msgstr "Codes autorisés:"
+
+#: ../plugin-options/general-options.php:21
+#: ../plugin-options/premium-general-options.php:21
+#: ../plugin-options/vendor/vendor-options.php:21
+msgid "More info"
+msgstr "Plus d’info"
+
+#: ../plugin-options/general-options.php:34
+#: ../plugin-options/premium-general-options.php:37
+#: ../plugin-options/vendor/vendor-options.php:38
+msgid "Review For Discounts settings"
+msgstr "Réglages de l’extension Review for Discounts"
+
+#: ../plugin-options/general-options.php:38
+#: ../plugin-options/premium-general-options.php:41
+msgid "Enable YITH WooCommerce Review For Discounts"
+msgstr "Activer YITH WooCommerce Review For Discounts"
+
+#: ../plugin-options/general-options.php:42
+#, php-format
+msgid ""
+"For each approved review, customers will get a 10% discount coupon on cart "
+"total"
+msgstr ""
+"Pour chaque avis, les client auront un coupon de 10% de remise sur le total "
+"du panier"
+
+#: ../plugin-options/general-options.php:49
+#: ../plugin-options/premium-general-options.php:69
+msgid "Email settings for the single review"
+msgstr "Réglages de l’email pour un avis"
+
+#: ../plugin-options/general-options.php:53
+#: ../plugin-options/premium-general-options.php:73
+#: ../plugin-options/premium-general-options.php:127
+#: ../plugin-options/premium-general-options.php:181
+#: ../plugin-options/vendor/vendor-options.php:54
+#: ../plugin-options/vendor/vendor-options.php:109
+#: ../plugin-options/vendor/vendor-options.php:164
+msgid "Email type"
+msgstr "Type de mail"
+
+#: ../plugin-options/general-options.php:55
+#: ../plugin-options/premium-general-options.php:75
+#: ../plugin-options/premium-general-options.php:129
+#: ../plugin-options/premium-general-options.php:183
+#: ../plugin-options/vendor/vendor-options.php:56
+#: ../plugin-options/vendor/vendor-options.php:111
+#: ../plugin-options/vendor/vendor-options.php:166
+msgid "Choose which email format you want to use"
+msgstr "Choisir quel format de mail vous souhaitez utiliser"
+
+#: ../plugin-options/general-options.php:57
+#: ../plugin-options/premium-general-options.php:77
+#: ../plugin-options/premium-general-options.php:131
+#: ../plugin-options/premium-general-options.php:185
+#: ../plugin-options/vendor/vendor-options.php:58
+#: ../plugin-options/vendor/vendor-options.php:113
+#: ../plugin-options/vendor/vendor-options.php:168
+msgid "HTML"
+msgstr "HTML"
+
+#: ../plugin-options/general-options.php:58
+#: ../plugin-options/premium-general-options.php:78
+#: ../plugin-options/premium-general-options.php:132
+#: ../plugin-options/premium-general-options.php:186
+#: ../plugin-options/vendor/vendor-options.php:59
+#: ../plugin-options/vendor/vendor-options.php:114
+#: ../plugin-options/vendor/vendor-options.php:169
+msgid "Plain text"
+msgstr "Texte brut"
+
+#: ../plugin-options/general-options.php:64
+#: ../plugin-options/premium-general-options.php:84
+#: ../plugin-options/premium-general-options.php:138
+#: ../plugin-options/premium-general-options.php:192
+#: ../plugin-options/vendor/vendor-options.php:65
+#: ../plugin-options/vendor/vendor-options.php:120
+#: ../plugin-options/vendor/vendor-options.php:175
+msgid "Email subject"
+msgstr "Sujet de l’email"
+
+#: ../plugin-options/general-options.php:68
+#: ../plugin-options/premium-general-options.php:88
+#: ../plugin-options/premium-general-options.php:142
+msgid "You have received a coupon from {site_title}"
+msgstr "Vous avez reçu un coupon de {site_title}"
+
+#: ../plugin-options/general-options.php:75
+#: ../plugin-options/premium-general-options.php:95
+#: ../plugin-options/premium-general-options.php:149
+#: ../plugin-options/premium-general-options.php:203
+#: ../plugin-options/vendor/vendor-options.php:76
+#: ../plugin-options/vendor/vendor-options.php:131
+#: ../plugin-options/vendor/vendor-options.php:186
+msgid "Email content"
+msgstr "Contenu de l’email"
+
+#: ../plugin-options/general-options.php:79
+#: ../plugin-options/premium-general-options.php:99
+msgid ""
+"Hi {customer_name},\n"
+"thanks for the review about {product_name}!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{site_title}."
+msgstr ""
+"Bonjour {customer_name},\n"
+"Merci de votre avis sur le produit {product_name}!\n"
+"Pour cela, nous vous faisons parvenir un code promo à utiliser sur notre "
+"boutique afin de vous remercier:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"A très vite sur la boutique,\n"
+"\n"
+"{site_title}."
+
+#: ../plugin-options/general-options.php:94
+#: ../plugin-options/premium-general-options.php:114
+#: ../plugin-options/premium-general-options.php:168
+#: ../plugin-options/premium-general-options.php:219
+#: ../plugin-options/vendor/vendor-options.php:95
+#: ../plugin-options/vendor/vendor-options.php:150
+#: ../plugin-options/vendor/vendor-options.php:202
+msgid "Test email"
+msgstr "Email de test"
+
+#: ../plugin-options/mandrill-options.php:22
+msgid "Enable Mandrill"
+msgstr "Activer Mandrill"
+
+#: ../plugin-options/mandrill-options.php:24
+msgid "Use Mandrill to send emails"
+msgstr "Utiliser Mandrill pour envoyer des mails"
+
+#: ../plugin-options/mandrill-options.php:29
+msgid "Mandrill API Key"
+msgstr "Clé API Mandrill"
+
+#: ../plugin-options/premium-general-options.php:47
+#: ../templates/admin/class-ywrfd-custom-vendor-panel.php:79
+msgid "The coupon will be sent"
+msgstr "Le coupon sera envoyé"
+
+#: ../plugin-options/premium-general-options.php:49
+msgid "Choose when coupon will be sent"
+msgstr "Choisir quand le coupon sera envoyé"
+
+#: ../plugin-options/premium-general-options.php:51
+#: ../templates/admin/class-ywrfd-custom-vendor-panel.php:85
+msgid "After review approval"
+msgstr "Après la validation de l’avis"
+
+#: ../plugin-options/premium-general-options.php:52
+#: ../templates/admin/class-ywrfd-custom-vendor-panel.php:89
+msgid "After review composition"
+msgstr "Après la rédaction de l’avis"
+
+#: ../plugin-options/premium-general-options.php:58
+#: ../templates/admin/class-ywrfd-custom-vendor-panel.php:97
+msgid "Deletion of Expired Coupons"
+msgstr "Suppression des coupons expirés"
+
+#: ../plugin-options/premium-general-options.php:60
+msgid ""
+"Delete automatically expired coupons (only those created by this plugin)"
+msgstr ""
+"Supprimer automatiquement les coupons expirés (seulement ceux crées par ce "
+"plugin)"
+
+#: ../plugin-options/premium-general-options.php:123
+#: ../plugin-options/vendor/vendor-options.php:105
+msgid "Email settings for multiple reviews"
+msgstr "Réglages de l’email pour plusieurs avis"
+
+#: ../plugin-options/premium-general-options.php:153
+msgid ""
+"Hi {customer_name},\n"
+"with the latest review you have written {total_reviews} reviews!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{site_title}."
+msgstr ""
+"Bonjour {customer_name},\n"
+"Vous venez de rédiger {total_reviews} avis!\n"
+"Merci beaucoup et pour cela, nous avons le plaisir de vous faire parvenir un "
+"code promo à utiliser sur notre boutique:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"A très vite sur la boutique,\n"
+"\n"
+"{site_title}."
+
+#: ../plugin-options/premium-general-options.php:177
+#: ../plugin-options/vendor/vendor-options.php:160
+msgid "Email settings for customer close to the target"
+msgstr "Réglages de l’email pour le client proche du seuil d’avis"
+
+#: ../plugin-options/premium-general-options.php:196
+msgid "You are getting near to an important goal on {site_title}"
+msgstr "Vous touchez au but sur {site_title}"
+
+#: ../plugin-options/premium-general-options.php:207
+msgid ""
+"Hi {customer_name},\n"
+"you need still {remaining_reviews} reviews and you will get a coupon for our "
+"shop!\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{site_title}."
+msgstr ""
+"Bonjour {customer_name},\n"
+"Vous avez encore besoin de {remaining_reviews} avis et vous recevrez un code "
+"promo afin de vous remercier !\n"
+"\n"
+"A très vite sur la boutique,\n"
+"\n"
+"{site_title}."
+
+#: ../plugin-options/vendor/vendor-options.php:39
+msgid "Only administrators of the site can manage these settings"
+msgstr "Seulement les administrateurs de ce site peuvent gérer ces réglages"
+
+#: ../plugin-options/vendor/vendor-options.php:50
+msgid "Email settings for single review"
+msgstr "Réglages de l’email pour un avis"
+
+#: ../plugin-options/vendor/vendor-options.php:69
+#: ../plugin-options/vendor/vendor-options.php:124
+msgid "You have received a coupon from {vendor_name} on {site_title}"
+msgstr ""
+"Vous avez reçu un code promo de la part de {vendor_name} sur {site_title}"
+
+#: ../plugin-options/vendor/vendor-options.php:80
+msgid ""
+"Hi {customer_name},\n"
+"thanks for the review about {product_name}!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{vendor_name}."
+msgstr ""
+"Bonjour {customer_name},\n"
+"Merci pour votre avis sur le produit {product_name}!\n"
+"Grâce à cela et pour vous remercier nous vous offrons un code promo:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"A très vite sur la boutique,\n"
+"\n"
+"{vendor_name}."
+
+#: ../plugin-options/vendor/vendor-options.php:135
+msgid ""
+"Hi {customer_name},\n"
+"with the latest review you have written {total_reviews} reviews!\n"
+"Because of this, we would like to offer you this coupon as a little gift:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{vendor_name}."
+msgstr ""
+"Bonjour {customer_name},\n"
+"Avec votre dernier avis, vous cumulez {total_reviews} avis!\n"
+"Grâce à cela, nous souhaitons vous faire parvenir un petit code promo à "
+"utiliser sur notre boutique:\n"
+"\n"
+"{coupon_description}\n"
+"\n"
+"A très vite sur notre boutique,\n"
+"\n"
+"{vendor_name}."
+
+#: ../plugin-options/vendor/vendor-options.php:179
+msgid ""
+"You are getting near to an important goal on {vendor_name} su {site_title}"
+msgstr ""
+"Vous êtes proche du but sur la boutique de {vendor_name} sur {site_title}"
+
+#: ../plugin-options/vendor/vendor-options.php:190
+msgid ""
+"Hi {customer_name},\n"
+"you need still {remaining_reviews} reviews and you will get a coupon for our "
+"shop!\n"
+"\n"
+"See you on our shop,\n"
+"\n"
+"{vendor_name}."
+msgstr ""
+"Bonjour {customer_name},\n"
+"Vous avez encore besoin de {remaining_reviews} avis et vous obtiendrez un "
+"code promo!\n"
+"\n"
+"A très vite sur notre boutique,\n"
+"\n"
+"{vendor_name}."
+
+#: ../templates/admin/class-ywrfd-custom-coupon-purge.php:110
+msgid "Delete expired coupons"
+msgstr "Supprimer les coupons expirés"
+
+#: ../templates/admin/class-ywrfd-custom-coupon-purge.php:111
+msgid "Deleting expired coupons..."
+msgstr "Suppression des coupons expirés…"
+
+#: ../templates/admin/class-ywrfd-custom-send.php:87
+msgid "Type an email address to send a test email"
+msgstr "Renseigner une adresse email afin d’envoyer le test"
+
+#: ../templates/admin/class-ywrfd-custom-send.php:90
+msgid "Send Test Email"
+msgstr "Envoyer le mail de test"
+
+#: ../templates/admin/class-ywrfd-custom-vendor-panel.php:103
+msgid "Expired coupons will be deleted automatically"
+msgstr "Les coupons expirés seront automatiquement supprimés"
+
+#: ../templates/admin/class-ywrfd-custom-vendor-panel.php:107
+msgid "Expired coupons must be deleted manually"
+msgstr "Les coupons expirés doivent être supprimés manuellement"

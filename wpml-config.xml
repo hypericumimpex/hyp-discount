@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<wpml-config>
+    <admin-texts>
+        <key name="ywrfd_email_review_subject"/>
+        <key name="ywrfd_email_review_mailbody"/>
+        <key name="ywrfd_email_multiple_subject"/>
+        <key name="ywrfd_email_multiple_mailbody"/>
+        <key name="ywrfd_email_notify_subject"/>
+        <key name="ywrfd_email_notify_mailbody"/>
+    </admin-texts>
+</wpml-config>
