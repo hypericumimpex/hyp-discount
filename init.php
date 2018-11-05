@@ -5,7 +5,7 @@
  * Description: <code><strong>HYP Discount pentru Evaluare Produs</strong></code> vă permite atât creșterea numărului de recenzii ale produselor, cât și creșterea vanzarilor, folosind reducerea de pret. Oferim o reducere în schimbul unei recenzii, iar utilizatorii vor cumpăra din ce în ce mai mult.
  * Author: YITH
  * Text Domain: yith-woocommerce-review-for-discounts
- * Version: 1.2.2
+ * Version: 1.2.3
  * Author URI: https://romeocovaci.com/
  * WC requires at least: 3.3.0
  * WC tested up to: 3.5.x
@@ -22,7 +22,7 @@ if ( ! function_exists( 'is_plugin_active' ) ) {
 function ywrfd_install_woocommerce_premium_admin_notice() {
 	?>
 	<div class="error">
-		<p><?php _e( 'HYP Discount is enabled but not effective. It requires WooCommerce in order to work.', 'yith-woocommerce-review-for-discounts' ); ?></p>
+		<p><?php _e( 'YITH WooCommerce Review For Discounts is enabled but not effective. It requires WooCommerce in order to work.', 'yith-woocommerce-review-for-discounts' ); ?></p>
 	</div>
 	<?php
 }
@@ -34,7 +34,7 @@ if ( ! function_exists( 'yit_deactive_free_version' ) ) {
 yit_deactive_free_version( 'YWRFD_FREE_INIT', plugin_basename( __FILE__ ) );
 
 if ( ! defined( 'YWRFD_VERSION' ) ) {
-	define( 'YWRFD_VERSION', '1.2.2' );
+	define( 'YWRFD_VERSION', '1.2.3' );
 }
 
 if ( ! defined( 'YWRFD_INIT' ) ) {

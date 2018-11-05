@@ -33,6 +33,14 @@
     line-height : 1.5em;
 }
 
+.notice-yith{
+    border-left-color: #acc327;
+}
+
+.notice-yith.notice-alt{
+    background-color: #ecf7ed;
+}
+
 /*-----------------------
     YITH Plugins Columns
  ------------------------*/

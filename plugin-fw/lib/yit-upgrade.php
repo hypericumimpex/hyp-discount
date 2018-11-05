@@ -620,7 +620,7 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 				//Get license for YITH Plugins
 				$enabled_license = YIT_Plugin_Licence()->get_licence();
 
-				if( false !== $enabled_license[ $slug ]['activated'] ){
+				if( isset( $enabled_license[ $slug ]['activated'] ) && false !== $enabled_license[ $slug ]['activated'] ){
 					if( isset( $enabled_license[ $slug ]['licence_key'] ) ){
 						$license = $enabled_license[ $slug ]['licence_key'];
 					}

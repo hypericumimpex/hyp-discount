@@ -1,7 +1,7 @@
 <?php
 /**
  * Framework Name: YIT Plugin Framework
- * Version: 3.0.25
+ * Version: 3.0.27
  * Author: YITHEMES
  * Text Domain: yith-plugin-fw
  * Domain Path: /languages/
